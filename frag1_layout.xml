@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/eb70q5buwaaspyj"
+        android:gravity="center_horizontal"
+        android:text="\n\n\n\n\n\n\n\n\n My name is Cirilla, princes of the Cintra"
+        android:textAlignment="center"
+        android:textColor="#F40255"
+        android:textSize="32dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/ciril_hi"
+        android:textAlignment="center"
+        android:textColor="#F40255"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

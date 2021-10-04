@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag3"
+    android:background="@android:color/background_dark">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/the_witcher_geralt_of_rivia_i103397"
+        android:gravity="center_horizontal"
+        android:text="\n\n\n\n\n\n I'm Geralt of Rivia"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/geralt_hi"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+</FrameLayout>
